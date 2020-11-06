@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+.btn1{
+    margin: 10px 0;
+    background-color: #b2dffc;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 700;
+    width: 100%;
+}
+
+.edit{
+    width: 100%;
+    padding-left: 5px;
+}
+
+/* mt,mb */
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mt15{
+    margin-top: 15px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+.a-link-facebook{
+    color:#385185;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.a-link-forget{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}

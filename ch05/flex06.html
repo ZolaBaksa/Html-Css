@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex06</title>
+    <style>
+        h2 {
+            display: flex;
+            color: pink;
+            justify-content: center;
+        }
+
+        h5 {
+            display: flex;
+            color: black;
+            justify-content: center;
+        }
+
+        .first {
+            display: flex;
+            flex-wrap: wrap; /*일정비율유지*/
+            justify-content: space-around;
+        }
+
+        button {
+            display: flex;
+            border-radius: 10%;
+            box-shadow: 0 5px 5px -5px gray;
+            justify-content: center;
+            background-color: pink;
+            color: white;
+
+        }
+
+        .btn_area{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Meet Guide Books</h2>
+    <h5>Discover hundreadds of local spots recommended by Airbnb hosts.</h5>
+    <div class="first">
+        <img src="san-francisco.jpg" alt="error" width="300px" height="200px">
+        <img src="new-york.jpg" alt="error" width="300px" height="200px">
+        <img src="london.jpg" alt="error" width="300px" height="200px">
+    </div>
+    <div class="btn_area">
+        <button>see all guidbooks</button>
+    </div>
+    <h2>Just for the weekend</h2>
+    <h5>Discover new inspiring close to home.</h5>
+    <div class="first">
+        <img src="napa.jpg" alt="error" width="300px" height="200px" title="napa">
+        <img src="sonoma.jpg" alt="error" width="300px" height="200px">
+        <img src="san-francisco-2.jpg" alt="error" width="300px" height="200px">
+    </div>
+</body>
+
+</html>
