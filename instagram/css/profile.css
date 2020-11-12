@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+header {
+  border: 1px solid gray;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 150px 10px 150px;
+}
+.logo {
+  align-self: center;
+}
+.header_menu {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.search input {
+  border: 1px solid gray;
+  background-color: whitesmoke;
+  text-align: center;
+  width: 200px;
+  height: 25px;
+}
+.header_menu li {
+  margin-right: 20px;
+}
+main {
+  background-color: #fafafa;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__header {
+  background-color: yellow;
+  width: 100%;
+  max-width: 935px;
+  display: flex;
+  margin-bottom: 50px;
+  height: 100%;
+}
+
+.profile__header .profile__img {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__img img {
+  border-radius: 50%;
+}
+
+.profile__feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 936px;
+  width: 100%;
+}
+
+.profile__feed .profile__photo {
+  background-color: white;
+  width: 31%;
+  height: 31%;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.profile__photo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@keyframes slideNavLink {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

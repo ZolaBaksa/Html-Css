@@ -1,0 +1,122 @@
+@import "profile.css";
+
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid gray;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 150px 10px 150px;
+}
+.logo{
+    align-self: center;
+}
+.header_menu{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.search{
+    /* align-self: center; */
+}
+.search input{
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+}
+.header_menu li{
+  margin-right: 20px;  
+}
+main{
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+}
+.post{
+    margin: 0 auto;
+    justify-content: center;
+    border: 1px solid lightgray;
+    background-color: white;
+    align-self: center;
+    max-width: 600px;
+}
+.post_writer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.userinfo{
+    display: flex;
+}
+.userinfo_name{
+    margin-left: 14px;
+}
+footer{
+    /* border: 1px solid palevioletred; */
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: lightgrey;
+    padding: 20px 137px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer nav ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+footer nav ul li{
+    margin-left: 15px;
+    color: gray;
+    font-size: 14px;
+}
+
+.a-link1{
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.navigation {
+    height: 75px;
+    background-color: white;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-bottom: 60px;
+  }
+  
+  .navigation .navigation__column:first-child img {
+    height: 45px;
+  }
+  
+  .navigation .navigations__links {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .navigation .navigation__list-item {
+    margin-left: 30px;
+    padding: 0 2px;
+    opacity: 0;
+    animation: slideNavLink 0.5s ease-out forwards;
+  }
+  
+  @keyframes slideNavLink {
+    from {
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
